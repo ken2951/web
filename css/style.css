@@ -1,5 +1,26 @@
 @charset "utf-8";
 
+/* skip nav */
+#skip {
+  position: relative;
+}
+#skip a {
+  position: absolute;
+  left: 0px;
+  top: -35px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #333;
+  line-height: 30px;
+  width: 140px;
+  text-align: center;
+  font-size: 10px;
+}
+#skip a:active,
+#skip a:focus {
+  top: 0;
+}
+
 /* layout */
 #wrap {
   width: 100%;
